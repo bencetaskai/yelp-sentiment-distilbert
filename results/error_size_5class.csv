@@ -1,0 +1,7 @@
+,tfidf_logreg,distilbert_512_3ep
+pontos találat,0.561,0.6135
+1 csillag eltérés,0.36025,0.34925
+2 csillag eltérés,0.0565,0.029
+3–4 csillag eltérés,0.02225,0.00825
+a hibák közül szomszédos,0.820615034168565,0.9036222509702458
+MAE (csillag),0.5495,0.435

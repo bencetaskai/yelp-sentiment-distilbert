@@ -1,0 +1,58 @@
+{
+  "accuracy": 0.7935,
+  "macro_precision": 0.7476744628890076,
+  "macro_recall": 0.7441666666666666,
+  "macro_f1": 0.7454891940495386,
+  "weighted_f1": 0.7905347452777469,
+  "per_class": {
+    "negatív": {
+      "precision": 0.8376225490196079,
+      "recall": 0.854375,
+      "f1": 0.8459158415841584,
+      "support": 1600
+    },
+    "semleges": {
+      "precision": 0.5452054794520548,
+      "recall": 0.4975,
+      "f1": 0.5202614379084968,
+      "support": 800
+    },
+    "pozitív": {
+      "precision": 0.8601953601953602,
+      "recall": 0.880625,
+      "f1": 0.8702903026559605,
+      "support": 1600
+    }
+  },
+  "confusion_matrix": [
+    [
+      1367,
+      187,
+      46
+    ],
+    [
+      219,
+      398,
+      183
+    ],
+    [
+      46,
+      145,
+      1409
+    ]
+  ],
+  "model": "distilbert",
+  "task": "3class",
+  "n_test": 4000,
+  "model_id": "distilbert-base-uncased",
+  "max_len": 256,
+  "learning_rate": 2e-05,
+  "epochs": 2,
+  "batch_size": 16,
+  "per_device_batch_size": 16,
+  "gradient_accumulation_steps": 1,
+  "precision": "fp32",
+  "train_seconds": 539.289395299973,
+  "best_val_macro_f1": 0.7429366780239262,
+  "gpu": "NVIDIA GeForce GTX 1660"
+}

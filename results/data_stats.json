@@ -1,0 +1,24 @@
+{
+  "dataset": "Yelp/yelp_review_full",
+  "sample_size": 20000,
+  "split_sizes": {
+    "train": 14400,
+    "test": 4000,
+    "val": 1600
+  },
+  "class_counts_5": {
+    "1★": 4000,
+    "2★": 4000,
+    "3★": 4000,
+    "4★": 4000,
+    "5★": 4000
+  },
+  "class_counts_3": {
+    "negatív": 8000,
+    "semleges": 4000,
+    "pozitív": 8000
+  },
+  "words_median": 99.0,
+  "words_mean": 135.50285,
+  "words_p90": 288.0
+}

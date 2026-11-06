@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.2,
+  "macro_precision": 0.04,
+  "macro_recall": 0.2,
+  "macro_f1": 0.06666666666666667,
+  "weighted_f1": 0.06666666666666665,
+  "per_class": {
+    "1★": {
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333333333333333,
+      "support": 800
+    },
+    "2★": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 800
+    },
+    "3★": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 800
+    },
+    "4★": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 800
+    },
+    "5★": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 800
+    }
+  },
+  "confusion_matrix": [
+    [
+      800,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      800,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      800,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      800,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      800,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "model": "majority",
+  "task": "5class",
+  "n_test": 4000
+}

@@ -1,0 +1,59 @@
+{
+  "accuracy": 0.8025,
+  "macro_precision": 0.7567766650205106,
+  "macro_recall": 0.7539583333333333,
+  "macro_f1": 0.7550362831690828,
+  "weighted_f1": 0.8000163201010198,
+  "per_class": {
+    "negatív": {
+      "precision": 0.85625,
+      "recall": 0.85625,
+      "f1": 0.85625,
+      "support": 1600
+    },
+    "semleges": {
+      "precision": 0.550471063257066,
+      "recall": 0.51125,
+      "f1": 0.5301360985093972,
+      "support": 800
+    },
+    "pozitív": {
+      "precision": 0.8636089318044659,
+      "recall": 0.894375,
+      "f1": 0.8787227509978508,
+      "support": 1600
+    }
+  },
+  "confusion_matrix": [
+    [
+      1370,
+      200,
+      30
+    ],
+    [
+      195,
+      409,
+      196
+    ],
+    [
+      35,
+      134,
+      1431
+    ]
+  ],
+  "model": "distilbert_512_3ep",
+  "task": "3class",
+  "n_test": 4000,
+  "model_id": "distilbert-base-uncased",
+  "max_len": 512,
+  "learning_rate": 2e-05,
+  "epochs": 3,
+  "batch_size": 16,
+  "per_device_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "precision": "fp32",
+  "train_seconds": 1022.1463445998961,
+  "best_val_macro_f1": 0.7524864540052844,
+  "peak_gpu_memory_gb": 2.3155994415283203,
+  "gpu": "NVIDIA GeForce GTX 1660"
+}

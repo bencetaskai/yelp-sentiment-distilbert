@@ -1,0 +1,8 @@
+{
+  "max_len": 256,
+  "tokens_median": 128.0,
+  "tokens_mean": 173.8806,
+  "tokens_p90": 366.1000000000022,
+  "share_truncated_at_max_len": 0.2012,
+  "share_over_512": 0.04165
+}

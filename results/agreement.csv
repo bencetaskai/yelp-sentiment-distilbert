@@ -1,0 +1,5 @@
+,5class,3class
+mindkettő helyes,0.44725,0.702
+csak DistilBERT helyes,0.16625,0.1005
+csak TF-IDF helyes,0.11375,0.07025
+mindkettő hibás,0.27275,0.12725

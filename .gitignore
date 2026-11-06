@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.ipynb_checkpoints/
+
+data/
+models/
+
+results/predictions/
+results/examples_*.csv

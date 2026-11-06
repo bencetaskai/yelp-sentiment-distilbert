@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu132
+torch==2.15.0
+transformers==5.22.1
+accelerate==1.15.0
+datasets==5.1.0
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter==1.1.1

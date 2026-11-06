@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.6135,
+  "macro_precision": 0.6138370715954291,
+  "macro_recall": 0.6134999999999999,
+  "macro_f1": 0.6134660791461447,
+  "weighted_f1": 0.6134660791461447,
+  "per_class": {
+    "1★": {
+      "precision": 0.7525906735751295,
+      "recall": 0.72625,
+      "f1": 0.7391857506361323,
+      "support": 800
+    },
+    "2★": {
+      "precision": 0.5448028673835126,
+      "recall": 0.57,
+      "f1": 0.5571166768478925,
+      "support": 800
+    },
+    "3★": {
+      "precision": 0.5341207349081365,
+      "recall": 0.50875,
+      "f1": 0.5211267605633803,
+      "support": 800
+    },
+    "4★": {
+      "precision": 0.5354919053549191,
+      "recall": 0.5375,
+      "f1": 0.5364940736119775,
+      "support": 800
+    },
+    "5★": {
+      "precision": 0.7021791767554479,
+      "recall": 0.725,
+      "f1": 0.7134071340713407,
+      "support": 800
+    }
+  },
+  "confusion_matrix": [
+    [
+      581,
+      183,
+      25,
+      7,
+      4
+    ],
+    [
+      156,
+      456,
+      171,
+      12,
+      5
+    ],
+    [
+      22,
+      181,
+      407,
+      169,
+      21
+    ],
+    [
+      5,
+      13,
+      136,
+      430,
+      216
+    ],
+    [
+      8,
+      4,
+      23,
+      185,
+      580
+    ]
+  ],
+  "model": "distilbert_512_3ep",
+  "task": "5class",
+  "n_test": 4000,
+  "model_id": "distilbert-base-uncased",
+  "max_len": 512,
+  "learning_rate": 2e-05,
+  "epochs": 3,
+  "batch_size": 16,
+  "per_device_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "precision": "fp32",
+  "train_seconds": 1012.2994655000512,
+  "best_val_macro_f1": 0.6099345385427655,
+  "peak_gpu_memory_gb": 2.315622329711914,
+  "gpu": "NVIDIA GeForce GTX 1660"
+}
